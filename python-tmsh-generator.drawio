@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T10:26:00.971Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="SIGJIFWiY_uGdlcBfZaw" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T11:12:40.589Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_fvVWJvzB65II00ZSPoy" version="21.3.8" type="github">
   <diagram name="Page-1" id="RXxPayNnIbjiyFpjj1rx">
     <mxGraphModel dx="1194" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,11 +7,129 @@
         <mxCell id="K4DUxFxKkhJDQCSjoFBc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-1" target="K4DUxFxKkhJDQCSjoFBc-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="K4DUxFxKkhJDQCSjoFBc-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="350" y="70" width="70" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="K4DUxFxKkhJDQCSjoFBc-2" value="加载参数文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-2" target="K4DUxFxKkhJDQCSjoFBc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-2" value="加载参数文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="325" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-7" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-4" target="K4DUxFxKkhJDQCSjoFBc-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-4" target="K4DUxFxKkhJDQCSjoFBc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-10" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K4DUxFxKkhJDQCSjoFBc-9">
+          <mxGeometry x="-0.1429" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-4" value="VS 是否存在" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-12" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-6" target="K4DUxFxKkhJDQCSjoFBc-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-6" target="K4DUxFxKkhJDQCSjoFBc-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-16" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K4DUxFxKkhJDQCSjoFBc-15">
+          <mxGeometry x="0.0222" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-6" value="网络配置是否存在" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-18" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-8" target="K4DUxFxKkhJDQCSjoFBc-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-8" target="K4DUxFxKkhJDQCSjoFBc-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-23" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K4DUxFxKkhJDQCSjoFBc-22">
+          <mxGeometry x="0.2571" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-8" value="Pool 配置是否存在" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="430" y="330" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-11" target="K4DUxFxKkhJDQCSjoFBc-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="243" y="720" />
+              <mxPoint x="385" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-11" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 生成 Pool 配置&lt;/span&gt;&lt;/div&gt;2. 生成 SNAT 配置&lt;br&gt;3. 生成 VS 配置" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="180" y="440" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-14" target="K4DUxFxKkhJDQCSjoFBc-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="83" y="720" />
+              <mxPoint x="385" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-14" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 生成网络配置&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 生成 Pool 配置&lt;/span&gt;&lt;/div&gt;2. 生成 SNAT 配置&lt;br&gt;3. 生成 VS 配置" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="20" y="440" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-17" target="K4DUxFxKkhJDQCSjoFBc-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-17" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 生成新增 Member 配置&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="435" y="440" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-21" target="K4DUxFxKkhJDQCSjoFBc-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-21" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 生成新增 Pool 配置&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 生成更新 VS关联 Pool 配置&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="440" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-30" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-24" target="K4DUxFxKkhJDQCSjoFBc-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-24" target="K4DUxFxKkhJDQCSjoFBc-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-33" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="K4DUxFxKkhJDQCSjoFBc-32">
+          <mxGeometry x="0.3468" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-24" value="SNATPool 是否存在" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="540" y="540" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-29" target="K4DUxFxKkhJDQCSjoFBc-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="720" />
+              <mxPoint x="385" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-29" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 生成新增 SNATPool Member 配置&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K4DUxFxKkhJDQCSjoFBc-31" target="K4DUxFxKkhJDQCSjoFBc-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="720" />
+              <mxPoint x="385" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-31" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 生成新增 SNATPool&amp;nbsp; 配置&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2. 生成更新 VS 关联 SNATPool 配置&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="290" y="640" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K4DUxFxKkhJDQCSjoFBc-34" value="结束" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="350" y="760" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
